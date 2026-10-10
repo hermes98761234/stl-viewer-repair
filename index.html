@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STL Viewer &amp; Repair: fix holes, flipped normals and non-manifold meshes</title>
+    <meta name="description" content="Free in-browser STL, OBJ and 3MF viewer and mesh repair tool. Find holes, flipped normals and non-manifold edges, fix them with Manifold, measure, cross-section, scale and export STL or 3MF. Nothing is uploaded." />
+    <meta name="keywords" content="STL viewer, STL repair, fix non-manifold mesh, fill holes STL, flip normals, 3MF export, mesh repair online, 3D print, manifold-3d, watertight mesh" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/stl-viewer-repair/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="STL Repair" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="STL Viewer &amp; Repair" />
+    <meta property="og:url" content="https://hermes98761234.github.io/stl-viewer-repair/" />
+    <meta property="og:title" content="STL Viewer &amp; Repair in your browser" />
+    <meta property="og:description" content="Open STL, OBJ and 3MF, find holes, flipped normals and non-manifold edges, repair them and export. Private: nothing leaves your device." />
+    <meta property="og:image" content="https://hermes98761234.github.io/stl-viewer-repair/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A damaged 3D mesh with its holes and flipped normals highlighted, and the headline: STL viewer and repair." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="STL Viewer &amp; Repair in your browser" />
+    <meta name="twitter:description" content="Find and fix holes, flipped normals and non-manifold meshes. Runs entirely in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/stl-viewer-repair/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "STL Viewer & Repair",
+        "url": "https://hermes98761234.github.io/stl-viewer-repair/",
+        "description": "Views STL, OBJ and 3MF files, detects holes, flipped normals and non-manifold edges, repairs them with Manifold, and exports STL or 3MF.",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript, WebGL, WebAssembly and Web Workers",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
